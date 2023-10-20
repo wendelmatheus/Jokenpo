@@ -20,8 +20,8 @@ class MyButtonState extends State<MyButton> {
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
             primary: const Color.fromRGBO(70, 0, 255, 1),
-            textStyle: const TextStyle(fontSize: 21.5),
-            fixedSize: const Size(126, 45)
+            textStyle: const TextStyle(fontSize: 20.0),
+            fixedSize: const Size(145, 50)
           ),
           onPressed: widget.onPressed,
           child: Text(widget.text)

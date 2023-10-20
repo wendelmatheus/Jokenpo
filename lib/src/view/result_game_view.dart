@@ -44,8 +44,8 @@ class ResultGameState extends State<ResultGame> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-              padding: EdgeInsets.all(30.0),
-              child: Text(textResult(result), style: TextStyle(fontSize: 27.0)),
+              padding: const EdgeInsets.all(30.0),
+              child: Text(textResult(result), style: const TextStyle(fontSize: 23.0)),
             ),
             Padding(
               padding: const EdgeInsets.all(10.0),

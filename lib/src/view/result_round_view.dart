@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pedrapapeltesoura/src/controller/game_controller.dart';
+import 'package:pedrapapeltesoura/src/model/game.dart';
 import 'package:pedrapapeltesoura/src/model/round.dart';
 import 'package:pedrapapeltesoura/src/view/result_game_view.dart';
 
@@ -43,6 +44,7 @@ class ResultRoundState extends State<ResultRound> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Text("Rodada ${GameController.instance.currentGame.count} de ${Game.roundLimit}", style: TextStyle(fontSize: 17.0)),
             Padding(
               padding: const EdgeInsets.all(30.0),
               child: Text(textResult(result),

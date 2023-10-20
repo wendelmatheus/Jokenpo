@@ -25,7 +25,7 @@ class HomePageState extends State<HomePage> {
         children: [
           const Padding(
             padding: EdgeInsets.all(30.0),
-            child: Text("Escolha um", style: TextStyle(fontSize: 35.0)),
+            child: Text("Escolha um", style: TextStyle(fontSize: 38.0)),
           ),
           MyButton(text: "Pedra", onPressed: () {
             var roundFeedback = GameController.instance.updateGame(Match(Options.rock));
